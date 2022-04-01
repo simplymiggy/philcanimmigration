@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<html>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Avenir' rel='stylesheet'>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Philippine Canadian Immigration Consultancy">
+  <meta name="keywords" content="immigration, visa, internatiol, student, study permit, tourist">
+  <meta name="author" content="Miggy Parana">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Philippine Canadian Immigration Consultancy</title>
+</head>
+
+<body>
+    <div class="header-container">
+        <h2>Philippine Canadian Immigration Consultancy</h2>
+    </div>
+    <div class="menubar" id="myHeader">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </div>
+    
+<div class="content">
+    <center><h2 id="services">Who we are</h2></center>
+    <p>Philippine Canada Immigration Consultancy (PCIC) was established in Calgary, Alberta by group of individuals who started as an International Student that are now successful in their field of expertise.</p>
+    <p>We at PCIC strived to be one of the leading immigration consultancy that will help Filipinos to successfully achieve their dreams of studying in Canada while working. We are committed to deliver only the highest quality of service to our clients to be with them in each step of the way, from lodging the application until their application to being a permamnent resident.</p>
+
+<!--Preview Card-->
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="image-card">
+                <div class="image" style="background-image: url(./jone.jpg)"></div>
+                <div class="content">
+                    <div class="title">
+                        <h2>Dainty Jone Supnet</h2>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="excerpt">
+                        <p>Founder, Immigration Consultant.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="image-card">
+                <div class="image" style="background-image: url(./maricon.jpg)"></div>
+                <div class="content">
+                    <div class="title">
+                        <h2>Maricon Manuel</h2>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="excerpt">
+                        <p>Founder, CEO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="image-card">
+                <div class="image" style="background-image: url(./paul.jpg)"></div>
+                <div class="content">
+                    <div class="title">
+                        <h2>Paul Ryan Abanilla</h2>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="excerpt">
+                        <p>Founder, CFO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="image-card">
+                <div class="image" style="background-image: url(./miggy.jpg)"></div>
+                <div class="content">
+                    <div class="title">
+                        <h2>Miguel Parana</h2>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="excerpt">
+                        <p>Founder, COO </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="image-card">
+                <div class="image" style="background-image: url(./jhun.jpg)"></div>
+                <div class="content">
+                    <div class="title">
+                        <h2>Jhun Lenard Enero</h2>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="excerpt">
+                        <p>Board Member</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="image-card">
+                <div class="image" style="background-image: url(./crystal.jpg)"></div>
+                <div class="content">
+                    <div class="title">
+                        <h2>Crystallyn Magbag</h2>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="excerpt">
+                        <p>Board Member</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+</div>
+
+<!--contact form-->
+<section class="form-container" id="contact">
+    <form action="action_page.php">
+        <h2>CONTACT US</h2>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="lname">Email Address</label>
+      <input type="text" id="email" name="email" placeholder="Your email adress..">
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+<div class="footer">
+    <h5>Philippine Canadian Immigration Consultancy</h5>
+    <p>All rights reserved. Philippine Canadian Immigration Consultancy 2022</p>
+</div>
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<html>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Avenir' rel='stylesheet'>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Philippine Canadian Immigration Consultancy">
+  <meta name="keywords" content="immigration, visa, internatiol, student, study permit, tourist">
+  <meta name="author" content="Miggy Parana">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Philippine Canadian Immigration Consultancy</title>
+</head>
+
+<body>
+    <div class="header-container">
+        <h2>Philippine Canadian Immigration Consultancy</h2>
+    </div>
+    <div class="menubar" id="myHeader">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+<div class="content">
+    <!--IMAGES-->
+    <center>
+        <img src="https://media.istockphoto.com/photos/canadian-work-permit-paper-document-and-passport-top-view-picture-id972481804?k=20&m=972481804&s=612x612&w=0&h=NLt2mhV86FJ3hK-vgRFu0TRtWaSU9VoLsYFni13DZVY=" alt="Study Permit" width="600" height="300">
+    </center>
+    <section class="about">
+        <section>
+        <h2>Philippine Canadian Immigration Consultancy</h2>
+        <p>Greetings to everyone!</p>
+        <p>Philippine Canada Immigration Consultancy (PCIC) is here to help you better understand the process of migrating to Canada through the <em>STUDY, WORK, LIVE</em> program. Canada has release new pathway for future immigrants. Explore and learn more about Canada's Immigration process with us.</p>
+        <h2 id="services">Our Services</h2>
+        <ul>
+            <li>Education Immigration Consultancy</li>
+            <li>Visa Application
+              <ul>
+                <li>Study Permit</li>
+                <li>Tourist Visa</li>
+              </ul>
+            </li>
+            <li>Immigration Pathway Consultancy</li>
+        </ul>
+        </section>
+
+        
+
+    </section>
+
+    <section class="skill">
+        <table>
+            <tr>
+                <th colspan="2">My Consulting Skills</th>
+            </tr>
+                <td>Creative Thinking</td>
+                <td>Problem-solving</td>
+            </tr>
+            <tr>
+                <td>Communication</td>
+                <td>Flexible approach</td>
+            </tr>
+            <tr>
+                <td> Client-focused thinking</td>
+                <td>Decision making</td>
+            </tr>
+            <tr>
+                <td>Credibility</td>
+                <td>Organization</td>
+            </tr>
+        </table>
+    </section>
+<!--contact form-->
+    <section class="form-container" id="contact">
+        <form action="action_page.php">
+            <h2>CONTACT US</h2>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="lname">Email Address</label>
+          <input type="text" id="email" name="email" placeholder="Your email adress..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    
+    <div class="footer">
+        <h5>Philippine Canadian Immigration Consultancy</h5>
+        <p>All rights reserved. Philippine Canadian Immigration Consultancy 2022</p>
+    </div>
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+</script>
+</body>
+</html> 
